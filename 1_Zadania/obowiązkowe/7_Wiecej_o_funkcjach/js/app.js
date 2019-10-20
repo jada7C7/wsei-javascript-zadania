@@ -5,28 +5,29 @@
  */
 
 
-//Twoj komentarz ...
+//funckja jeden
 function jeden() {
 
-    //Twoj komentarz ...
+    //zminenna1 o zasiegu blokowym
     var zmienna1 = 1;
 
-    //Twoj komentarz ...
+    //funckaj 2
     function dwa() {
 
-        //Twoj komentarz ...
+        //wypisanie wartosci zmiennej1 o zasiegu blokowym
         console.log(zmienna1);
 
-        //Twoj komentarz ...
+        //zmianna2 o zasiegu blokowym
         var zmienna2 = 3;
     }
 
-    //Twoj komentarz ...
+    //Wywyolanie finckji2
     dwa();
 
-    //Twoj komentarz ...
+    //proba wypisania zmiennnej2
+    // zmiennna2 nie jest dostepna poza funkcja dwa poniewaz jej przypisanie znajduje się wewnątrz funckji dwa() 
     console.log(zmienna2)
 }
 
-//Twoj komentarz ...
+// wywołanie funkcji jeden()
 jeden()

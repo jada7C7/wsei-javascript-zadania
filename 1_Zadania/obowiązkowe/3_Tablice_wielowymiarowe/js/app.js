@@ -1,48 +1,53 @@
-(function () {
-    // ex 0
-    function checkArray(array) {
-        const arrayCheck = [];
-        array.map((element, index) => {
-            let elementCheck = null;
-            element.map(el => {
-                if (Number.isInteger(el)) {
-                    if (el % 2 === 0) {
-                        if (elementCheck == null) {
-                            elementCheck = true;
-                        }
-                    } else {
-                        elementCheck = false;
+// Zadanie 0
+function checkArray(array) {
+    const result = [];
+    array.map(element => {
+        let elementCheck = null;
+        //petla po elementach tablicy drugiego wymiaru
+        element.map(el => {
+            //sprawdzenie czy liczba jest calkowita
+            if (Number.isInteger(el)) {
+                //sprawdzenie czy liczba jest parzysta
+                if (el % 2 === 0) {
+                    // jesli pierwszy element jest nie parzysty to drugi nie ni emoze byc true 
+                    if (elementCheck == null) {
+                        elementCheck = true;
                     }
                 } else {
-                    throw new Error('Invalid argument');
+                    elementCheck = false;
                 }
-            })
-            if (elementCheck != null) {
-                arrayCheck.push(elementCheck);
+            } else {
+                throw new Error('Invalid argument');
             }
-
         })
-        return arrayCheck;
-    }
-    // checkArray(
-    //     [
-    //         [11, 12],
-    //         [42, 2],
-    //         [-4, -120],
-    //         [0, 0],
-    //         [1, 34]
-    //     ]);
-    // checkArray(
-    //     [
-    //         [21.5, 12],
-    //         [42, 2.5],
-    //         [4, 51],
-    //         [10, 0],
-    //         [17, 34]
-    //     ]);
-})();
+        //jesli element bedzie pusty nie doda do tablicy
+        if (elementCheck != null) {
+            result.push(elementCheck);
+        }
+
+    })
+    return result;
+}
+// checkArray(
+//     [
+//         [11, 12],
+//         [42, 2],
+//         [-4, -120],
+//         [0, 0],
+//         [1, 34]
+//     ]);
+// checkArray(
+//     [
+//         [21.5, 12],
+//         [42, 2.5],
+//         [4, 51],
+//         [10, 0],
+//         [17, 34]
+//     ]);
 
 
+
+// Zadanie 1
 var task1Array = [
     [2, 3],
     ["Ala", "Ola"],
@@ -50,7 +55,6 @@ var task1Array = [
     [5, 6, 7, 8],
     [12, 15, 67]
 ];
-// ex1
 // 1.
 // console.log(task1Array[2][1])
 //2
@@ -59,7 +63,7 @@ var task1Array = [
 // console.log(task1Array[3][1]);
 
 
-//ex2
+//Zadanie 2
 var task2Array = [
     [1, 2, 3, 4],
     [5, 6, 7, 8],
@@ -80,20 +84,21 @@ var task2Array = [
 //     }
 // }
 
-//ex3
+//Zadanie 3
 // function print2DArray(array2d) {
 //     array2d.map(el => {
 //         console.log(el)
 //     })
 // }
 
-//ex4
+//Zadanie 4
 // const task4Array = [[15,1, 'Andrzej'], [18,3, 'Marcin']];
 // print2DArray(task4Array)
 
-//ex5
+//Zadanie 5
 // function create2DArray(rows, columns) {
-//     const array2d = new Array();
+//     const array2d = [];
+//     //odliczamie od 1 nie od 0
 //     let count = 1;
 //     for (let i = 0; i < rows; i++) {
 //         array2d.push([]);
@@ -104,4 +109,4 @@ var task2Array = [
 //     }
 //     return array2d;
 // }
-// console.log(create2DArray(10, 2)[9]);
+// console.log(create2DArray(10, 2));

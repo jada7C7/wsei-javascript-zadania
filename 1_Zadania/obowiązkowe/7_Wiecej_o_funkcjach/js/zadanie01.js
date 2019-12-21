@@ -13,6 +13,7 @@ function sortArray() {
 
     //wywaoleni funckji sort na tablicy - points
     points.sort(function (a, b) {
+        console.log(a, b, 'aib')
         //szukanie kolejno najbardzije dopasowanych elementow
         return a - b;
     });

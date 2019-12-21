@@ -1,4 +1,4 @@
-
+<!-- // 7 -->
 
 Pamiętaj o dodawaniu komentarzy z numerem zadania, np.:
 

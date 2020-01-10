@@ -8,32 +8,39 @@ document.addEventListener("DOMContentLoaded", function () {
     /*
     Poniżej napisz kod rozwiązujący zadania
      */
-    //0
+    //Exercise 0
     function getDatasInfo(elements) {
         let newArraydata = [];
         for (let i = 0; i < elements.length; i++) {
             newArraydata.push(elements[i].dataset.color);
         }
         return newArraydata;
-    }
+    };
     console.log(getDatasInfo(links));
-    //1
-    console.log(homeElement)
-    console.log(typeof homeElement)
-    console.log(childElements)
-    console.log(typeof childElements)
-    console.log(banner);
-    console.log(typeof banner);
-    console.log(blocks);
-    console.log(typeof blocks)
 
-    //zadanie 1 wszystkie nie sa tablicami funckaj Array.isArray(element) zawsze zwraca false
+    //Exercise 1
+
+    console.log(homeElement, "homeElement");
+    console.log(childElements, "childELements");
+    console.log(banner, "banner");
+    console.log(blocks, "blocks");
+    console.log(links, "links");
+
+    [homeElement, childElements, banner, blocks, links].forEach(function (element, index) {
+        if (element instanceof HTMLCollection || element instanceof NodeList) {
+            for (let i = 0; i < element.length; i++) {
+                console.log(element[i].tagName, " - tag name");
+                console.log(element[i].className, " - class name");
+            }
+            console.log("-------------------------");
+            console.log("End" + index + "iteration");
+            console.log("-------------------------");
+        }
+    });
 
 
-
-    //2  SPRAEWDZIĆ CZY O TO CHODZIŁO
+    // Exercise 2
     for (let i = 0; i < blocks.length; i++) {
-        console.log(i, 'index')
         let innerContent = blocks[i].innerHTML;
         let outerContent = blocks[i].outerHTML;
         console.log(innerContent, 'innerHTML');
@@ -46,14 +53,14 @@ document.addEventListener("DOMContentLoaded", function () {
         console.log(outerContent, 'outerHTML');
     }
 
-    //3
+    // Exercise 3
     const mainFooter = document.getElementById("mainFooter");
     console.log(getId(mainFooter));
     function getId(element) {
         return element.id;
-    }
+    };
 
-    //4
+    // Execise 4
     console.log(getTags(childElements));
     function getTags(elements) {
         let tagsArray = [];
@@ -61,10 +68,10 @@ document.addEventListener("DOMContentLoaded", function () {
             tagsArray.push(elements[i].tagName);
         }
         return tagsArray;
-    }
+    };
 
 
-    //5
+    // Exercise 5
     console.log(getClassInfo(banner));
     function getClassInfo(element) {
         const classArray = [];
@@ -74,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
         return classArray;
     }
 
-    //6
+    // Exercise 6
     var liElements = document.querySelectorAll("nav li");
     setDataDirection(liElements);
     function setDataDirection(elements) {
@@ -84,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         }
     }
-    //wyswietlenie liLEmeents
+    //check elements
     // for (let i = 0; i < liElements.length; i++) {
     //    console.log(liElements[i])
     // }

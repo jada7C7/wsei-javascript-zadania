@@ -1,19 +1,19 @@
-//funckjs wypusuje oczekiwaną wartosć
-// hello();
+//fucntion print "Cześć" value
+hello();
 function hello() {
-    console.log('Cześć');
-}
-// funckja wypisuje oczekiwaną wartość
+    console.log("Cześć");
+};
+// fucntion print "Cześć" value
 // hello();
 
-// funckja NIE wypisuje oczekiwanej wartośći, 
+// function NOT print value "Witaj"
 welcome();
 let welcome = function () {
-    console.log('Witaj');
-}
-// funckja wypisuje oczekiwaną wartość
+    console.log("Witaj");
+};
+// fucntion print "Witaj" value
 // welcome();
 
 
-
-// funcjje do gory wycag a js 
+//In this exercise occurs hoisting this mean that 
+//function declarations are "moved" to the top of your code

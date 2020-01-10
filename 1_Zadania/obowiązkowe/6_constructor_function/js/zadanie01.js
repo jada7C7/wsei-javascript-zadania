@@ -1,7 +1,8 @@
+//Exercise 1
 var Robot = function (name) {
     this.name = name;
     this.isFunctional = true;
-}
+};
 
 Robot.prototype.sayHi = function (toWho) {
     if (this.isFunctional === true) {
@@ -22,7 +23,7 @@ Robot.prototype.fixIt = function () {
     console.log("Robot " + this.name + " was fixed");
 };
 
-let andrzej = new Robot('Andrzej')
-andrzej.sayHi('Jerzy');
+var andrzej = new Robot("Andrzej")
+andrzej.sayHi("Jerzy");
 andrzej.changeName('Patryk');
-andrzej.fixIt()
+andrzej.fixIt();

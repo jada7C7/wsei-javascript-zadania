@@ -1,3 +1,4 @@
+//Exercise 2
 var calculator = {
     save: function (newA, newB) {
         this.a = newA;

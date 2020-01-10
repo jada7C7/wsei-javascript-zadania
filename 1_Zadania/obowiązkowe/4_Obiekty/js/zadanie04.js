@@ -8,7 +8,7 @@ var movie = {
     year: 2001,
     time: "2h 58 min",
     category: " Adventure, Drama, Fantasy"
-}
+};
 for (let item in movie) {
     console.log(movie[item]);
 }

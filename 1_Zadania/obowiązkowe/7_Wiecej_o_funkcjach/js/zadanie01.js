@@ -5,22 +5,21 @@
  * Napisz komentarze dla kazdej z linijek kodu
  */
 
-//finckja sortArray
+//function "sortArray"
 function sortArray() {
 
-    //zdefiniowanie zmiennej points jako tablica wraz z danymi
+    //defining the "points" variable as an array with data
     var points = [41, 3, 6, 1, 114, 54, 64];
 
-    //wywaoleni funckji sort na tablicy - points
+    //call function sort on the array name points
     points.sort(function (a, b) {
-        console.log(a, b, 'aib')
-        //szukanie kolejno najbardzije dopasowanych elementow
+        //searching for the most-matched items one after the other
         return a - b;
     });
 
-    //zwrot posortowaniej tablicy points
+    //return of a sorted "points" table
     return points;
 }
 
-//Wywyoalnei funkcji sortArray
+//call function "sortArray"
 sortArray();

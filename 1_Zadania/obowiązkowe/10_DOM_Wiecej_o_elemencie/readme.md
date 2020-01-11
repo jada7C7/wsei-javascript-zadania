@@ -8,7 +8,7 @@ Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny i dobrze s
 **Nie modyfikuj kodu HTML, chyba że w poleceniu jest napisane inaczej.**
 
 ### Zadanie 0 Przeszukiwanie, atrybut data  (~ 7min - 12min)
-
+ 
 (Spójrz na element o klasie ```ex5```)
 
 Zmodyfikuj listę w następujący sposób:

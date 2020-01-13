@@ -22,6 +22,10 @@ document.addEventListener("DOMContentLoaded", function () {
       console.log("innerFuncOne: ", this);
     }
     innerFuncOne();
+    // 1) funkcja strzałkowa:
+    // const innerFuncOne () => {console.log(this)};
+    // 2) uzyc bind/aplly/call:
+    // np. innerFuncOne.bind(this)
 
   });
 

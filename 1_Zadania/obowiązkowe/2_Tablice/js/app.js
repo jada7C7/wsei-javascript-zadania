@@ -1,4 +1,4 @@
-//Exercise 0
+//Zadanie 0
 function distFromAvarage(values) {
     let sum = values.reduce((previous, current) => current += previous);
     let avg = sum / values.length;
@@ -11,7 +11,7 @@ function distFromAvarage(values) {
 }
 // distFromAvarage([2,8,3,7]);
 
-//Exercise 1
+//Zadanie 1
 function favouriteFruit(fruit) {
     let firstFruit = fruit[0];
     console.log(firstFruit, 'first');
@@ -23,7 +23,7 @@ function favouriteFruit(fruit) {
 }
 // favouriteFruit(['gruszka', 'jablko', 'kiwi'])
 
-//Exercise 3
+//Zadanie 3
 function printTable(array) {
     array.forEach(el => {
         console.log(el);
@@ -31,7 +31,7 @@ function printTable(array) {
 }
 // printTable([1,2,3,4,5,6])
 
-//Exercise 4
+//Zadanie 4
 function multiply(array) {
     let score = 1;
     for (let i = 0; i < array.length; i++) {
@@ -41,7 +41,7 @@ function multiply(array) {
 }
 // multiply([1,2,3,4,5,6,7]);
 
-//Exercise 5
+//Zadanie 5
 function getEvenAvarage(array) {
     let avgEven = null;
     let count = 0;
@@ -59,7 +59,7 @@ function getEvenAvarage(array) {
 }
 // getEvenAvarage([1, 2, 15, 19])
 
-//Exercise 6
+//Zadanie 6
 function sortArray(array) {
     let sorted = array.sort((a, b) => {
         return a - b;
@@ -68,7 +68,7 @@ function sortArray(array) {
 }
 // sortArray([145, 11, 3, 64, 4, 6, 10]);
 
-//Exercise 7
+//Zadanie 7
 function addArrays(array1, array2) {
     let longerArray = array1.length >= array2.length ? array1 : array2;
     let shortenArray = array1.length >= array2.length ? array2 : array1;

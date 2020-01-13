@@ -9,7 +9,7 @@ function createArray(number) {
     return newArray;
 }
 
-console.log("Array with numbers to 6 = [" + createArray(6)+"]");
-console.log("Array with numbers to 1 = [" + createArray(1)+"]");
-console.log("Negative number test (should be empty array) = [" + createArray(-6)+"]");
-console.log("Zero number test (should be empty array) = [" + createArray(0)+"]");
+console.log("Tablica z wartościami do 6 = [" + createArray(6)+"]");
+console.log("Tablica z wartościami do 1 = [" + createArray(1)+"]");
+console.log("Test liczby ujemnej (tablica powinna byc pusta) = [" + createArray(-6)+"]");
+console.log("Test liczby ujemnej (tablica powinna byc pusta) = [" + createArray(0)+"]");

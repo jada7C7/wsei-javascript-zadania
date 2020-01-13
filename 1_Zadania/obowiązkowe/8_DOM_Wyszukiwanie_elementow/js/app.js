@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     Poniżej napisz kod rozwiązujący zadania. Odpowiedzi oddzielaj komentarzami.
      */
 
-    //Exercise 0
+    //Zadanie 0
     let elementCLassTitle = document.getElementsByClassName("title");
     function getDataAnimation(element) {
         let elementDataAttr = element[0].dataset.animation;
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     };
     getDataAnimation(elementCLassTitle);
 
-    //Exercise 1
+    //Zadanie 1
     let HomeElement = document.getElementById("home");
     console.log(HomeElement);
     let HomeElement2 = document.querySelector("#home");
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let firstBlock = document.querySelector(".block");
     console.log(firstBlock);
 
-    //Exercise 2
+    //Zadanie 2
 
     let navLiElements = document.querySelectorAll('nav li');
     console.log(navLiElements);
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log(allDivArticle.length);
 
 
-    //Exercise 3
+    //Zadanie 3
     
     let firstArticle = document.querySelectorAll("article.first");
     console.log(firstArticle);

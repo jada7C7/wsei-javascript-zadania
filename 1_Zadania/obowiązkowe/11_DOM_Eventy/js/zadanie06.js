@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     
-    document.addEventListener('mousemove', onMouseMoveGlobal)
-    let box = document.getElementById("box");
+   let box = document.getElementById("box");
+   box.addEventListener('mousemove', onMouseMoveGlobal)
     box.addEventListener('mousemove', onMouseMoveLocal)
     let getGlobalX = document.getElementById("globalX");
     let getGlobalY = document.getElementById("globalY");

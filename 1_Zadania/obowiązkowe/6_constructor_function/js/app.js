@@ -1,4 +1,4 @@
-///Exercise 0
+///Zadanie 0
 var Basket = function () {
     this.products = [];
     this.sum = 0;
@@ -12,7 +12,7 @@ Basket.prototype.showBasket = function () {
     return this.products.map((element, index) => {
         console.log(element.name + ' - ' + element.price + ' zł');
         if (index == this.products.length - 1) {
-            console.log('price for all products: ' + this.sum);
+            console.log('Cena za wszystkie produkty: ' + this.sum);
         }
     });
 };

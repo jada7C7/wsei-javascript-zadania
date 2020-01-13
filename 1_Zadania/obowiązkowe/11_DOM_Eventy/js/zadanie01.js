@@ -1,3 +1,13 @@
+/**
+ * Project name: Maal Project
+ * Created Date: Monday, January 13th 2020, 9:45:06 pm
+ * Author: sylwester (koson_maciej@ma-al.com)
+ * -----
+ * Copyright (c) 2020 Maal Sp. z o.o.
+ * ------------------------------------
+ */
+
+
 document.addEventListener("DOMContentLoaded", function () {
 
     var menu = document.querySelector("#menu");
@@ -6,20 +16,20 @@ document.addEventListener("DOMContentLoaded", function () {
     menu.classList.add("menu");
     paragraf.innerHTML = "A to jest paragraf w zadaniu 1";
 
-    //Exercise 1
+    //Zadanie 1
 
     //1.1
-    // in script file we try get element when it not exist on page, on the firs 
-    //place the javascript code is loading and after the html code
+    // w pliku skryptu próbujemy uzyskać element, gdy nie istnieje on na stronie
+    //pierw ładuje się kod javascript, a pozniej HTML
 
 
     //1.2
-    // the event "DOMContentLoaded" talk browser that must waiting 
-    //on the page is loading and after run javacript code
+    // event "DOMContentLoaded" "mowi" przegladarce ze musi poczekac 
+    //zanim strona zaladuje strona a dopiero pozniej odpalic skrypt
 
     //1.3 
-    //In this task the replace script tag on the bottom file nothing vhnage because
-    //the event "DOMContentLoaded" still "blocked" browser run js code
+    //Przeniesieni pliku na dol stromny nic nie zmieni 
+    //nasz event "DOMContentLoaded" czeka na strone az sie zaladuje
 
     
 });

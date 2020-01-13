@@ -5,30 +5,30 @@
  */
 
 
-//function "jeden"
+//funkcja "jeden"
 function jeden() {
 
-    //variable zminenna1 with block range
+    //zmianna o zasiegu  blokowym
     var zmienna1 = 1;
 
-    //function "two"
+    //funckja "two"
     function dwa() {
 
-        //print the value variable "zmiennej1"
+        //wuswietlenie "zmiennej1"
         console.log(zmienna1);
 
-        //variable "zmianna2" with block range
+        //zmianna o zasiegu  blokowym
         var zmienna2 = 3;
     }
 
-    //call funciton "dwa"
+    //wywoalnie funkcji "dwa"
     dwa();
 
-    // attempt to display the value of variable "zmiennnej2"
-    // zmiennna2 is not avilable out of funciton "dwa" because
-    // assignment is inside the function "dwa" 
+    // proba wypisania "zminna2"
+    // zmienna nie ma "zasiegu" poza funckje "dwa" poniewaz
+    // jej przypisanie znajduje się wewnatrz funkcji "dwa" 
     console.log(zmienna2);
 }
 
-// call funciton "jeden"
+// wywolanoe funckji jeden
 jeden();

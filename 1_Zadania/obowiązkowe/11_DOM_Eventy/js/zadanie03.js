@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    //Exercise 3
+    //Zadanie 3
     let button1 = document.getElementById("button1");
     let button2 = document.getElementById("button2");
     let button3 = document.getElementById("button3");

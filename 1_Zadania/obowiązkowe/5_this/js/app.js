@@ -1,4 +1,4 @@
-//Exercise 0
+//Zadanie 0
 const car = {
     brand: "Ford",
     color: "red",
@@ -14,7 +14,7 @@ console.log(car.printCarInfo());
 car.drive(20);
 console.log(car.printCarInfo());
 
-////Exercise 1
+////Zadanie 1
 car.review = ["20.12.1996", "20.12.1997"];
 car.addReview = function (date) {
     this.review.push(date);
@@ -23,7 +23,7 @@ car.getAllReviwe = function () {
     return this.review;
 };
 
-////Exercise 3
+////Zadanie 3
 const stairs = {
     step: 0,
     up() {

@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    //Exercise 0
+    //Zadanie 0
 
     let ex5 = document.querySelector(".ex5");
     let allLiElementInEx5 = ex5.querySelectorAll("li");
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    // Exercise 1
+    // Zadanie 1
     let getChrome = document.querySelector(".exercise.ex1 .chrome");
     let getEdge = document.querySelector(".exercise.ex1 .edge");
     let getFirefox = document.querySelector(".exercise.ex1 .firefox");
@@ -44,9 +44,10 @@ document.addEventListener("DOMContentLoaded", function () {
             link.href = "https://www.microsoft.com/pl-pl/windows/microsoft-edge/";
         }
     }
-    //because we refer directly to the element, we not chenge css document only html
+    //ponieważ odwołujemy się bezpośrednio do elementu, nie zmaniamy dokumentu css tylko HTML
 
-    // Exercise 2
+
+    // Zadanie 2
     let name = document.getElementById("name");
     name.innerHTML = "Sylwester Sz";
     let favColor = document.getElementById("fav_color");
@@ -54,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let favMeal = document.getElementById("fav_meal");
     favMeal.innerHTML = "Dumplings";
 
-    //Exercise 3
+    //Zadanie 3
     let getEx3Ul = document.querySelector(".exercise.ex3 ul");
     getEx3Ul.classList.add("menu");
     for (let i = 0; i < getEx3Ul.children.length; i++) {
@@ -65,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    //Exercise 4
+    //Zadanie 4
     let getEx4UlChildren = document.querySelector(".exercise.ex4 ul").children;
     for (let i = 0; i < getEx4UlChildren.length; i++) {
         getEx4UlChildren[i].setAttribute("data-id", i + 1);

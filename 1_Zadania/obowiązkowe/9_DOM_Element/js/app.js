@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     /*
     Poniżej napisz kod rozwiązujący zadania
      */
-    //Exercise 0
+    //Zadanie 0
     function getDatasInfo(elements) {
         let newArraydata = [];
         for (let i = 0; i < elements.length; i++) {
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
     };
     console.log(getDatasInfo(links));
 
-    //Exercise 1
+    //Zadanie 1
 
     console.log(homeElement, "homeElement");
     console.log(childElements, "childELements");
@@ -33,13 +33,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 console.log(element[i].className, " - class name");
             }
             console.log("-------------------------");
-            console.log("End" + index + "iteration");
+            console.log("Koniec" + index + "iteracji");
             console.log("-------------------------");
         }
     });
 
 
-    // Exercise 2
+    // Zadanie 2
     for (let i = 0; i < blocks.length; i++) {
         let innerContent = blocks[i].innerHTML;
         let outerContent = blocks[i].outerHTML;
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
         console.log(outerContent, 'outerHTML');
     }
 
-    // Exercise 3
+    // Zadanie 3
     const mainFooter = document.getElementById("mainFooter");
     console.log(getId(mainFooter));
     function getId(element) {
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
 
-    // Exercise 5
+    // Zadanie 5
     console.log(getClassInfo(banner));
     function getClassInfo(element) {
         const classArray = [];
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
         return classArray;
     }
 
-    // Exercise 6
+    // Zadanie 6
     var liElements = document.querySelectorAll("nav li");
     setDataDirection(liElements);
     function setDataDirection(elements) {
@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         }
     }
-    //check elements
+    //sparwdzenie
     // for (let i = 0; i < liElements.length; i++) {
     //    console.log(liElements[i])
     // }

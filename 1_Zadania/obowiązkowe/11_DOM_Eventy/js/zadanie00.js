@@ -1,4 +1,4 @@
-//Exercise 0a / 0b
+//Zadanie 0a / 0b
 
 document.addEventListener("DOMContentLoaded", function () {
     let parents = document.querySelectorAll(".parent");

@@ -1,4 +1,4 @@
-//Exercise 2
+//Zadanie 2
 const Calculator = function () {
     this.operation = [];
 };

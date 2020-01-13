@@ -1,4 +1,4 @@
-//Exercise 0a
+//Zadanie 0a
 const city = {
     capital: "Warszawa",
     population: 12345678,
@@ -10,7 +10,7 @@ console.log(city.population);
 console.log(city.president);
 console.log(city.primeMinister);
 
-//Exercise 0b
+//Zadanie 0b
 const timeMachine = {
     shape: "shape",
     model: "model",
@@ -22,7 +22,7 @@ console.log(timeMachine.shape);
 console.log(timeMachine.model);
 console.log(timeMachine.run("20.10.2099", "Kraków"));
 
-//Exercise 1
+//Zadanie 1
 const book = {
     title: "W pustyni i w puszczy",
     author: "H. Sienkiewicz",
@@ -32,7 +32,7 @@ console.log(book.title);
 console.log(book.author);
 console.log(book.numberOfPage);
 
-//Exercise 2
+//Zadanie 2
 const person = {
     name: "Andrzej",
     age: 20,
@@ -44,7 +44,7 @@ console.log(person.name);
 console.log(person.age);
 person.sayHello();
 
-//Exercise 3
+//Zadanie 3
 const recipe = {
     title: "Szarlotka",
     servings: 20,
@@ -55,7 +55,7 @@ console.log(recipe.title);
 console.log(recipe.servings);
 console.log(recipe.ingredients);
 
-//Exercise 6
+//Zadanie 6
 const spoon = {
     isExist: true
 };

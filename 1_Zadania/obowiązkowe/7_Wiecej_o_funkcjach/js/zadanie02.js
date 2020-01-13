@@ -7,14 +7,14 @@ function callOtherFunction(nameOfFunction) {
 };
 
 callOtherFunction(function (a, b) {
-    console.log("First number:", a);
-    console.log("Second number:", b);
-    console.log("Score", a + b);
+    console.log("Pierwsza wartosc:", a);
+    console.log("Druga wartosc:", b);
+    console.log("Wynik", a + b);
 });
 
 callOtherFunction(function (a, b) {
-    console.log("First number:", a);
-    console.log("Second number:", b);
-    console.log("Score", a * b);
+    console.log("Pierwsza wartosc:", a);
+    console.log("Druga wartosc:", b);
+    console.log("Wynik", a * b);
 });
 

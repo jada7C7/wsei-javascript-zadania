@@ -1,4 +1,4 @@
-//Exercise 1
+//Zadanie 1
 function countHello(count) {
     if (count <= 10 && count >= 1 && !isNaN(count)) {
         let i = 0;
@@ -10,7 +10,7 @@ function countHello(count) {
             }
         });
     } else {
-        alert('Only numbers from 1 to 10');
+        alert('Tylko cyfry od 1 do 10');
     }
 }
 countHello(2);

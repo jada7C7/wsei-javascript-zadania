@@ -1,19 +1,21 @@
-//fucntion print "Cześć" value
+//Funkcja wypisuje "Cześć":
 hello();
 function hello() {
     console.log("Cześć");
 };
-// fucntion print "Cześć" value
+//Funkcja wypisuje "Cześć":
 // hello();
 
-// function NOT print value "Witaj"
+//Funkcja nie wypisuje "Witaj":
 welcome();
 let welcome = function () {
     console.log("Witaj");
 };
-// fucntion print "Witaj" value
+//Funkcja wypisuje "Witaj":
 // welcome();
 
 
-//In this exercise occurs hoisting this mean that 
-//function declarations are "moved" to the top of your code
+// gdy jest wyrażenie funkcyjne: let welcome = funcion()...
+//miejsce wywołania wyrażenia ma znaczenie,
+// gdy wywołanie wystapi przed definicją wyrażenia
+//to wtedy dostaniemy błąd

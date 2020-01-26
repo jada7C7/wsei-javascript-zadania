@@ -19,14 +19,11 @@ document.addEventListener('DOMContentLoaded', function () {
         <button class="close">Close</button>
       </div>`;
         domElement.innerHTML = modalCode;
+        domElement.children[0].querySelector(".close").addEventListener("click", function(){
+            document.body.removeChild(document.getElementsByClassName("fullScreen")[0]);
+        });
         bodyElement.appendChild(domElement.children[0]);
 
     }
-
-    document.addEventListener("click", function (e) {
-        if (e.target.classList.contains("close")) {
-            document.body.removeChild(document.getElementsByClassName("fullScreen")[0]);
-        }
-    })
 
 }); 

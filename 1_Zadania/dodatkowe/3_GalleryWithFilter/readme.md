@@ -9,7 +9,7 @@ Zadanie podzielone jest na punkty. Pamiętaj, żeby trzymać się dokładnie tre
 ## Punkt 1
 Zapoznaj się z kodem HTML i CSS dodanym do zadania. Do zrobienia galerii zazwyczaj używamy diva o odpowiednim id.
 
-## Punkt 2
+## Punkt 2 
 Przygotuj do pracy plik **app.js**. Dopisz event ```DomContentLoaded``` i sprawdź, czy działa (np poprzez wyświetlenie w konsoli napisu "Działa").
 Następnie znajdź następujące elementy i zapisz je do zmiennych:
 

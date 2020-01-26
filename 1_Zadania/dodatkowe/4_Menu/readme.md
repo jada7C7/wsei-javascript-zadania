@@ -7,7 +7,7 @@ Zadanie podzielone jest na punkty. Pamiętaj, żeby trzymać się dokładnie tre
 
 ## Punkt 1
 Zapoznaj się z kodem HTML i CSS dodanym do zadania. Menu będzie się dobrze wyświetlać, gdy dodasz odpowiednią **klasę** do odpowiedniego elementu.  
-
+ 
 ## Punkt 2
 Przygotuj do pracy plik **app.js**. Dopisz event ```DomContentLoaded``` i sprawdź, czy działa (np poprzez wyświetlenie w konsoli napisu "Działa").
 

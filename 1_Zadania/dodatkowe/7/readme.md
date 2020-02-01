@@ -18,7 +18,7 @@ createIdentityMatrix(4,4) =>
 Jest to tak zwana macierz jednostkowa, czyli taka, która ma na przekątnej jedynki. Musisz użyć pętli zagnieżdżonych. Pamiętaj o tym, że tablica ta ma zostać zwrócona przez funkcję inaczej zadanie będzie nie zaliczone.
 
 ### Zadanie 3
-W pliku ```planets.js``` jest stworzona tablica obiektów ```planets```. Znajduje się w niej 8 planet Układu Słoneczngo wraz z informacjami ile posiadają księżyców. Napisz funkcję ```sortPlanet(planets)```, której zadaniem będzie **zwrócenie** nowej, posortowanej wg. ilości księżyców, tablicy. Czyli od Jowisza do Wenus. 
+W pliku ```planets.js``` jest stworzona tablica obiektów ```planets```. Znajduje się w niej 8 planet Układu Słoneczngo wraz z informacjami ile posiadają księżyców. Napisz funkcję ```sortPlanet(planets)```, której zadaniem będzie *planets*zwrócenie** nowej, posortowanej wg. ilości księżyców, tablicy. Czyli od Jowisza do Wenus. 
 
 ### Dodatkowe
 > Wszystkie zadania dodatkowe wykonaj w pliku app.js
